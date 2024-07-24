@@ -1,8 +1,8 @@
 <!-- Plugin Configuration File. Read more: https://plugins.jetbrains.com/docs/intellij/plugin-configuration-file.html -->
 <idea-plugin>
-    <id>com.github.mrolappe.ijorgmode</id>
+    <id>de.rholambdapi.intellij.orgmode</id>
     <name>ij-org-mode</name>
-    <vendor>mrolappe</vendor>
+    <vendor>Marco Rolappe</vendor>
 
     <depends>com.intellij.modules.platform</depends>
 
