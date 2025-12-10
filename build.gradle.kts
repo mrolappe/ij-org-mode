@@ -77,7 +77,9 @@ kover {
 tasks.test { useJUnitPlatform() }
 
 intellijPlatform {
-    sandboxContainer.set(file("/Users/mrolappe/sandkasten/tmp-ij-org-mode-sandbox"))
+    if (System.getenv("CI") != "true") {
+        sandboxContainer.set(file("/Users/mrolappe/sandkasten/tmp-ij-org-mode-sandbox"))
+    }
 
     pluginConfiguration {
         id = "de.rholambdapi.org-mode.ij-org-mode"
