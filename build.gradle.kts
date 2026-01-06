@@ -31,7 +31,7 @@ repositories {
 dependencies {
     implementation("com.orgzly:org-java:1.2.3")
     testImplementation(kotlin("test-junit5"))
-    testImplementation(platform("org.junit:junit-bom:6.0.1"))
+    testImplementation(platform("org.junit:junit-bom:6.0.2"))
     testImplementation("org.junit.jupiter:junit-jupiter-api")
     testRuntimeOnly("org.junit.jupiter:junit-jupiter-engine")
     testRuntimeOnly("junit:junit:4.13.2")   // workaround for IJ
