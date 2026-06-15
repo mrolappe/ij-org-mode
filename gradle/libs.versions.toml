@@ -1,6 +1,6 @@
 [versions]
 # libraries
-kotestAssertionsCore = "6.1.11"
+kotestAssertionsCore = "6.2.0"
 
 # plugins
 kotlin = "2.3.21"
